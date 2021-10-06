@@ -1,0 +1,23 @@
+{
+  "name": "pizzapulls-webrtc",
+  "version": "1.0.0",
+  "description": "The endpoint with the stream",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.jpizz.dev/pizzapullscm/pizzapulls-webrtc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.28.0"
+  }
+}
